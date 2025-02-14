@@ -1,0 +1,8 @@
+body {
+    background-image: url('JoiAkka.jpg'); /* Replace with the path to your image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+}
