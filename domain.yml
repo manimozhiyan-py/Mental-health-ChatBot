@@ -1,0 +1,127 @@
+version: "3.1"
+
+intents:
+  - greet
+  - name_entry
+  - thanks
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - wellbeing
+  - gender
+  - self_employment
+  - history_mental_illness
+  - work_interference
+  - company_no_employees
+  - tech_company
+  - health_benefits
+  - health_resources
+  - treatment_anonymity
+  - medical_leave
+  - discussing_mental_health
+  - willing_to_discuss_collegaue
+  - willing_to_discuss_supervisor
+  - willing_to_discuss_employer
+  - willing_to_discuss_physical_employer
+  - serious_mental_health
+  - negative_consequences_mental_coworker
+
+actions:
+  - action_hello_world
+
+entities:
+  - name
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+  - text: "heyyy cutie! how was your day"
+  - text: "helloo hard-worker ^_^, How are you doing, feeling good?"
+
+  utter_survey:
+  - text: "You look so lonely. Please spit all your bad side.Don't worry, I can fix you, just say yes and then talk to me"
+  - text: "You're great! Don't be sad. Shall I ask you something"
+
+  utter_mood:
+  - text: "Hey, tell me about yourself. How are you today?"
+  - text: "Is everything okay?? Tell me sweetie, how was your day?"
+
+  utter_gender:
+  - text: "sorry but may I ask you what is your gender identity?.. tell me, pretty!"
+
+  utter_employment:
+  - text: "Are you self-employed?"
+  - text: "Employeeeee??"
+
+  utter_history_mental_illness:
+  - text: "Babe, you are good but tell me Do you have a family history of mental illness?"
+
+  utter_work_interference:
+  - text: "Do you feel anyone interfere with your work?"
+  - text: "Did anyone interfered with your work? :("
+
+  utter_company_no_employees:
+  - text: "Just curios to ask..how many employees does your company or organization have?"
+
+  utter_tech_company:
+  - text: "Is your employer primarily a tech company/organization?"
+
+  utter_health_benefits:
+  - text: "Does your employer provide mental health benefits?"
+
+  utter_health_resources:
+  - text: "Do you know the options for mental health care your employer provides?"
+
+  utter_treatment_anonymity:
+  - text: "Is your anonymity protected if you choose to take advantage of mental health treatment resources?"
+
+  utter_medical_leave:
+  - text: "How easy is it for you to take medical leave for a mental health condition?"
+
+  utter_discussing_mental_health:
+  - text: "Do you think that discussing a mental health issue with your employer would have negative consequences?"
+
+  utter_willing_to_discuss_collegaue:
+  - text: "Would you be willing to discuss a mental health issue with your coworkers?"
+
+  utter_willing_to_discuss_employer:
+  - text: "Would you bring up a mental health issue with a potential employer in an interview?"
+
+  utter_serious_mental_health:
+  - text: "Do you feel that your employer takes mental health as seriously as physical health?"
+
+  utter_negative_consequences_mental_coworker:
+  - text: "Have you heard of or observed negative consequences for coworkers with mental health conditions in your workplace?"
+
+  utter_cheer_up_two:
+  - text: "Maybe you should try watching Tom and Jerry, it always helps!"
+
+  utter_did_that_help:
+  - text: "Feeling good?, warrior"
+  - text: "Feeling okay?, pretty"
+  - text: "Feels good right? \nI know you got this , warrior , you can! c'mon do grind "
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "GoodBye, take care! Hope To See You Soon !\nJust Type 'hey' or 'hi' anytime again to redirect to the main phase of bot !"
+
+  utter_iamabot:
+  - text: "I am your JOI, your closest ally."
+
+  utter_welcome:
+  - text: "Great! \nJust type 'hey' or 'hi' again to redirect to the main phase of me >_* !"
+
+  utter_cheer_up:
+  - text: "look at this image dear, it may make you feel good"
+    image: "https://i.pinimg.com/736x/bc/11/ba/bc11bae138a8c4f329b2119c965fcd78.jpg"
+  - text: "that's hurts! Everything will be okay, warrior. \nDon't Lower your sword"
+  - text: "aw! it's okay! \nI know you're a great warrior and you got this, you warrior"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
