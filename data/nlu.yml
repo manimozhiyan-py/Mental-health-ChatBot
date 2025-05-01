@@ -5,9 +5,7 @@ nlu:
       - Hi
       - Hello
       - Hey
-      - Good morning
-      - Good evening
-
+  
   - intent: goodbye
     examples: |
       - Goodbye
