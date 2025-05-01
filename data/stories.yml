@@ -1,0 +1,19 @@
+version: "3.1"
+
+stories:
+  - story: greeting path
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - story: goodbye path
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: fallback path
+    steps:
+      - intent: fallback
+      - action: action_forward_to_ngrok
+      - action: utter_default_response
+

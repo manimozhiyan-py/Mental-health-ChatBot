@@ -1,0 +1,16 @@
+version: "3.0"
+
+intents:
+  - greet
+  - goodbye
+  - message_to_llm  # A custom intent for all other messages
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you today?"
+  utter_goodbye:
+    - text: "Goodbye! Take care."
+
+actions:
+  - action_forward_to_ngrok  # The action to call the LLM
+

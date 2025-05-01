@@ -1,0 +1,24 @@
+version: "3.0"
+nlu:
+  - intent: greet
+    examples: |
+      - Hi
+      - Hello
+      - Hey
+      - Good morning
+      - Good evening
+
+  - intent: goodbye
+    examples: |
+      - Goodbye
+      - Bye
+      - See you
+
+  - intent: message_to_llm  # Catch-all intent for all other messages
+    examples: |
+      - My dog died
+      - I'm feeling sad
+      - What's the weather like today?
+      - Tell me a joke
+      - How can I improve my skills in Python?
+
