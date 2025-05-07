@@ -41,8 +41,8 @@ This project aims to create a sophisticated mental health chatbot using cutting-
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/mental-health-chatbot.git
-cd mental-health-chatbot
+git clone https://github.com/manimozhiyan-py/Mental-health-ChatBot.git
+cd Mental-health-ChatBot
 
 # Set up virtual environment
 python -m venv venv
