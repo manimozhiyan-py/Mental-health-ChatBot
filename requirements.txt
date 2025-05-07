@@ -1,0 +1,7 @@
+python == 3.8 (to run rasa)
+torch  == 2.6.0
+transformers == 4.5
+accelerate == 1.5
+flask == 3.1
+pyngrok == 7.2
+streamlit == 1.44
