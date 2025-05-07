@@ -27,7 +27,7 @@ class ActionForwardToNgrok(Action):
         else:
             # Call LLM API (using a placeholder URL for example)
             try:
-                response = requests.post("https://d36b-34-143-144-189.ngrok-free.app/chat", json={"message": user_message})
+                response = requests.post("paste llm api/chat", json={"message": user_message})
                 if response.status_code == 200:
                     llm_response = response.json().get("response", "Sorry, I couldn't get a response.")
                     # Log the LLM response
